@@ -21,17 +21,16 @@ To control the load of your processor, use the left and right arrow keys. You ma
 > This script is currently in beta. Temperature control and controller support are not yet implemented.
 
 # Compiling
-For compiling with Windows, enter this command on MinGW:
 
-```cmd
-g++ main.cpp -o "cpu^2.exe" -std=c++11 -pthread -O0
-```
-
-For running on 32-bit systems, use the `-m32` flag:
-
+Windows:
 ```cmd
 g++ main.cpp -o "cpu^2.exe" -std=c++11 -pthread -O0 -m32
 ```
 
+Linux:
+```bash
+g++ main.cpp -o "cpu^2" -std=c++11 -pthread -O0 -m32
+```
+
 > [!IMPORTANT]
-> Compiler optimization must remain off, math is done to heat your processor, but the compiler may see it as arbitrary.
+> Compiler optimization must remain off. Math is done to heat your processor, but the compiler may see it as arbitrary.
