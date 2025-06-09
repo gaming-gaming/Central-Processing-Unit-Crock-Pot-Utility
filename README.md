@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gaming-gaming/Central-Processing-Unit-Crock-Pot-Utility/124753ab3375716c8dd6d9670b0769d608b46e36/brand/logo_text.svg" alt="Logo" width="75%"/>
+  <img src="https://raw.githubusercontent.com/gaming-gaming/Central-Processing-Unit-Crock-Pot-Utility/refs/heads/main/brand/logo-text.svg" alt="Logo" width="75%"/>
 </p>
 
 # Central Processing Unit Crock-Pot Utility
@@ -34,3 +34,10 @@ g++ main.cpp -o "cpu^2" -std=c++11 -pthread -O0 -m32
 
 > [!IMPORTANT]
 > Compiler optimization must remain off. Math is done to heat your processor, but the compiler may see it as arbitrary.
+
+# Scrambled Eggs I Cooked on an Intel Pentium 4
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gaming-gaming/Central-Processing-Unit-Crock-Pot-Utility/refs/heads/main/brand/eggs0.png" width="49%">
+  <img src="https://raw.githubusercontent.com/gaming-gaming/Central-Processing-Unit-Crock-Pot-Utility/refs/heads/main/brand/eggs1.png" width="49%">
+</p>
